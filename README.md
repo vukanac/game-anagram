@@ -27,3 +27,16 @@ Install required libraries:
 
 Example of use
 --------------
+
+    $string1 = 'AstroNomers';
+    $string2 = 'no more stars';
+
+    $game = new \Game\Anagram();
+    $wordIsAnagram = $game->isAnagram($string1, $string2)
+
+    if ($wordIsAnagram) {
+        echo "The word `$string2` is an anagram of the word `$string1`
+    } else {
+        echo "thw word `$string2` is not an anagram of the word `$string1`
+    }
+
