@@ -7,14 +7,14 @@ An **anagram** is a type of word play, the result of rearranging the letters of 
 
 For example, "admirer" can be rearranged into "married", "AstroNomers" to "no more stars" (you can see that we ignore capital letters in this task).
 
-In the following task you should implement a function `isAnagram($string1, $string2)` that returns `TRUE` if two input strings form anagrams of each other, otherwise `FALSE`. Also return `FALSE` in case of invalid inputs. It's allowed to use as many additional functions and structures as needed.
+In the following task you should implement a function `isAnagram($string1, $string2)` that returns `TRUE` if two input strings form anagrams of each other, otherwise `FALSE`. Also, return `FALSE` in a case of invalid inputs. It's allowed to use as many additional functions and structures as needed.
 
 
 You can put your code directly to the form, or give us GitHub link or any other downloadable URL.
 
 
-Instalation
------------
+Installation
+------------
 
 Download or clone repository:
 
@@ -37,6 +37,6 @@ Example of use
     if ($wordIsAnagram) {
         echo "The word `$string2` is an anagram of the word `$string1`
     } else {
-        echo "thw word `$string2` is not an anagram of the word `$string1`
+        echo "The word `$string2` is not an anagram of the word `$string1`
     }
 
